@@ -10,6 +10,10 @@ export const routes: Routes = [
     loadComponent: ()  => import('./detail/detail.component')
   },
   {
+    path: 'tests',
+    loadComponent: () => import('./tests/reactivity.component')
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
