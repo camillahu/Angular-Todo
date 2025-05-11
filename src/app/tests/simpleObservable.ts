@@ -19,4 +19,3 @@ const emitOneToFive = new Observable((observer) => {
   observer.next(4);
   observer.next(5);
 })
-
